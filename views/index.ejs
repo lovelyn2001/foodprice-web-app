@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Price Prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+  body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0;
+            font-weight: bold;
+            color: #333;
+        }
+        select, button {
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        select:hover, button:hover {
+            border-color: #74ebd5;
+            background-color: #e0f7fa;
+        }
+        button {
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background: linear-gradient(to right, #9face6, #74ebd5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form id="foodForm" method="POST" action="/predict">
+        <h2>Food Price Prediction</h2>
+        <label for="foodItem">Select Food Item:</label>
+        <select id="foodItem" name="foodItem" required>
+            <% foodstuffs.forEach(food => { %>
+                <option value="<%= food.name %>"><%= food.name %></option>
+            <% }); %>
+        </select>
+
+        <button type="submit">Predict Price</button>
+    </form>
+</div>
+</body>
+</html>

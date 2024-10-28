@@ -1,0 +1,76 @@
+{
+    "foodstuffs": [
+        {
+            "name": "Rice (5 kg)",
+            "currentPrice": 4500,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 4950
+        },
+        {
+            "name": "Beans (1 kg)",
+            "currentPrice": 1000,
+            "estimatedPriceIncrease": 15,
+            "estimatedPriceInDecember": 1150
+        },
+        {
+            "name": "Garri (1 kg)",
+            "currentPrice": 600,
+            "estimatedPriceIncrease": 12,
+            "estimatedPriceInDecember": 672
+        },
+        {
+            "name": "Yam (1 tuber)",
+            "currentPrice": 1200,
+            "estimatedPriceIncrease": 20,
+            "estimatedPriceInDecember": 1440
+        },
+        {
+            "name": "Maize (1 kg)",
+            "currentPrice": 500,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 550
+        },
+        {
+            "name": "Palm Oil (1 liter)",
+            "currentPrice": 1000,
+            "estimatedPriceIncrease": 8,
+            "estimatedPriceInDecember": 1080
+        },
+        {
+            "name": "Onion (1 kg)",
+            "currentPrice": 800,
+            "estimatedPriceIncrease": 15,
+            "estimatedPriceInDecember": 920
+        },
+        {
+            "name": "Tomato (1 kg)",
+            "currentPrice": 900,
+            "estimatedPriceIncrease": 20,
+            "estimatedPriceInDecember": 1080
+        },
+        {
+            "name": "Chicken (1 kg)",
+            "currentPrice": 3000,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 3300
+        },
+        {
+            "name": "Beef (1 kg)",
+            "currentPrice": 2500,
+            "estimatedPriceIncrease": 15,
+            "estimatedPriceInDecember": 2875
+        },
+        {
+            "name": "Fish (1 kg)",
+            "currentPrice": 2000,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 2200
+        },
+        {
+            "name": "Pepper (1 kg)",
+            "currentPrice": 800,
+            "estimatedPriceIncrease": 15,
+            "estimatedPriceInDecember": 920
+        }
+    ]
+}
