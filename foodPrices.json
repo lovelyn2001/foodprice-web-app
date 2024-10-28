@@ -1,76 +1,190 @@
 {
     "foodstuffs": [
         {
-            "name": "Rice (5 kg)",
-            "currentPrice": 4500,
-            "estimatedPriceIncrease": 10,
-            "estimatedPriceInDecember": 4950
-        },
-        {
-            "name": "Beans (1 kg)",
+            "name": "Rice",
             "currentPrice": 1000,
-            "estimatedPriceIncrease": 15,
-            "estimatedPriceInDecember": 1150
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 1100
         },
         {
-            "name": "Garri (1 kg)",
-            "currentPrice": 600,
-            "estimatedPriceIncrease": 12,
-            "estimatedPriceInDecember": 672
+            "name": "Beans",
+            "currentPrice": 800,
+            "estimatedPriceIncrease": 5,
+            "estimatedPriceInDecember": 840
         },
         {
-            "name": "Yam (1 tuber)",
-            "currentPrice": 1200,
+            "name": "Tomatoes",
+            "currentPrice": 400,
             "estimatedPriceIncrease": 20,
-            "estimatedPriceInDecember": 1440
+            "estimatedPriceInDecember": 480
         },
         {
-            "name": "Maize (1 kg)",
+            "name": "Onions",
+            "currentPrice": 600,
+            "estimatedPriceIncrease": 15,
+            "estimatedPriceInDecember": 690
+        },
+        {
+            "name": "Yam",
+            "currentPrice": 700,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 770
+        },
+        {
+            "name": "Plantain",
+            "currentPrice": 300,
+            "estimatedPriceIncrease": 12,
+            "estimatedPriceInDecember": 336
+        },
+        {
+            "name": "Garri",
+            "currentPrice": 500,
+            "estimatedPriceIncrease": 8,
+            "estimatedPriceInDecember": 540
+        },
+        {
+            "name": "Pepper",
+            "currentPrice": 200,
+            "estimatedPriceIncrease": 18,
+            "estimatedPriceInDecember": 236
+        },
+        {
+            "name": "Chicken",
+            "currentPrice": 1500,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 1650
+        },
+        {
+            "name": "Goat Meat",
+            "currentPrice": 2000,
+            "estimatedPriceIncrease": 15,
+            "estimatedPriceInDecember": 2300
+        },
+        {
+            "name": "Beef",
+            "currentPrice": 1800,
+            "estimatedPriceIncrease": 12,
+            "estimatedPriceInDecember": 2016
+        },
+        {
+            "name": "Fish",
+            "currentPrice": 1200,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 1320
+        },
+        {
+            "name": "Palm Oil",
+            "currentPrice": 1000,
+            "estimatedPriceIncrease": 5,
+            "estimatedPriceInDecember": 1050
+        },
+        {
+            "name": "Sugar",
+            "currentPrice": 400,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 440
+        },
+        {
+            "name": "Flour",
+            "currentPrice": 500,
+            "estimatedPriceIncrease": 8,
+            "estimatedPriceInDecember": 540
+        },
+        {
+            "name": "Salt",
+            "currentPrice": 200,
+            "estimatedPriceIncrease": 5,
+            "estimatedPriceInDecember": 210
+        },
+        {
+            "name": "Corn",
+            "currentPrice": 600,
+            "estimatedPriceIncrease": 7,
+            "estimatedPriceInDecember": 642
+        },
+        {
+            "name": "Pounded Yam Flour",
+            "currentPrice": 700,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 770
+        },
+        {
+            "name": "Cocoyam",
+            "currentPrice": 500,
+            "estimatedPriceIncrease": 15,
+            "estimatedPriceInDecember": 575
+        },
+        {
+            "name": "Honey",
+            "currentPrice": 800,
+            "estimatedPriceIncrease": 12,
+            "estimatedPriceInDecember": 896
+        },
+        {
+            "name": "Cabbage",
+            "currentPrice": 250,
+            "estimatedPriceIncrease": 15,
+            "estimatedPriceInDecember": 288
+        },
+        {
+            "name": "Carrot",
+            "currentPrice": 300,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 330
+        },
+        {
+            "name": "Spinach",
+            "currentPrice": 200,
+            "estimatedPriceIncrease": 12,
+            "estimatedPriceInDecember": 224
+        },
+        {
+            "name": "Eggs",
+            "currentPrice": 600,
+            "estimatedPriceIncrease": 5,
+            "estimatedPriceInDecember": 630
+        },
+        {
+            "name": "Lentils",
+            "currentPrice": 700,
+            "estimatedPriceIncrease": 8,
+            "estimatedPriceInDecember": 756
+        },
+        {
+            "name": "Noodles",
+            "currentPrice": 250,
+            "estimatedPriceIncrease": 10,
+            "estimatedPriceInDecember": 275
+        },
+        {
+            "name": "Coconut",
             "currentPrice": 500,
             "estimatedPriceIncrease": 10,
             "estimatedPriceInDecember": 550
         },
         {
-            "name": "Palm Oil (1 liter)",
-            "currentPrice": 1000,
+            "name": "Beetroot",
+            "currentPrice": 400,
             "estimatedPriceIncrease": 8,
-            "estimatedPriceInDecember": 1080
+            "estimatedPriceInDecember": 432
         },
         {
-            "name": "Onion (1 kg)",
-            "currentPrice": 800,
-            "estimatedPriceIncrease": 15,
-            "estimatedPriceInDecember": 920
+            "name": "Pineapple",
+            "currentPrice": 300,
+            "estimatedPriceIncrease": 12,
+            "estimatedPriceInDecember": 336
         },
         {
-            "name": "Tomato (1 kg)",
-            "currentPrice": 900,
+            "name": "Bitter Leaf",
+            "currentPrice": 150,
             "estimatedPriceIncrease": 20,
-            "estimatedPriceInDecember": 1080
+            "estimatedPriceInDecember": 180
         },
         {
-            "name": "Chicken (1 kg)",
-            "currentPrice": 3000,
-            "estimatedPriceIncrease": 10,
-            "estimatedPriceInDecember": 3300
-        },
-        {
-            "name": "Beef (1 kg)",
-            "currentPrice": 2500,
+            "name": "Fluted Pumpkin (Ugu)",
+            "currentPrice": 200,
             "estimatedPriceIncrease": 15,
-            "estimatedPriceInDecember": 2875
-        },
-        {
-            "name": "Fish (1 kg)",
-            "currentPrice": 2000,
-            "estimatedPriceIncrease": 10,
-            "estimatedPriceInDecember": 2200
-        },
-        {
-            "name": "Pepper (1 kg)",
-            "currentPrice": 800,
-            "estimatedPriceIncrease": 15,
-            "estimatedPriceInDecember": 920
+            "estimatedPriceInDecember": 230
         }
     ]
 }
